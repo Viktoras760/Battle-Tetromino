@@ -86,6 +86,7 @@ public class GameBoard extends JPanel{
         repaint();
     }
 
+    
     public synchronized void rotate(){
         int movement = this.rotatePossible();
 

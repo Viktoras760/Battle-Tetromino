@@ -14,6 +14,7 @@ public class DoublePlayerGameBoard extends GameBoard implements DoublePlayable{
     protected boolean[][] rewardPiece;
     protected int rewardPieceX, rewardPieceY;
 
+    
     private KeyListener rewardKL = new KeyListener(){       // add keyListener for reward
         @Override
         public void keyTyped(KeyEvent e){
