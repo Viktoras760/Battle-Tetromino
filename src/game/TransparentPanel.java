@@ -19,6 +19,8 @@ public class TransparentPanel extends JPanel{
         this.setFocusable(true);
     }
 
+
+    
     public void paintComponent(Graphics g){
         g.setColor(bgColor);
         Rectangle r = g.getClipBounds();

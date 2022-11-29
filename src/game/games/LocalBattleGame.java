@@ -27,6 +27,8 @@ public class LocalBattleGame extends DoublePlayerGame{
         opponentGameBoard.setBounds(170 + 680, 155, 338, 546);
         getContentPane().add(opponentGameBoard);
 
+
+        
         opponentIcon.setText(nickName);
         opponentIcon.setIcon(new ImageIcon(iconPath));
 

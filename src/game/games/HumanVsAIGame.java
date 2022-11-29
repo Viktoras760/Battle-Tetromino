@@ -24,6 +24,8 @@ public class HumanVsAIGame extends DoublePlayerGame implements AutoPlayable{
      * @param iconPath ip
      * @param output output
      */
+
+     
     public HumanVsAIGame(String nickName, String iconPath, PrintWriter output){
         super(nickName, iconPath);
 

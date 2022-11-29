@@ -14,6 +14,10 @@ public interface DoublePlayable{
      */
     void addLinesOnTop(int lineNum);
 
+
+
+    
+
     /**
      * gravity drop
      */
@@ -24,6 +28,8 @@ public interface DoublePlayable{
      * @return piece position to be deployed
      */
     Point deployRewardPiece();
+
+
 
     /**
      * override drawPiece method

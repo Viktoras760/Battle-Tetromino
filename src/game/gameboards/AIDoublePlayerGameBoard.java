@@ -22,6 +22,8 @@ public class AIDoublePlayerGameBoard extends AIGameBoard implements DoublePlayab
 
         }
 
+        
+
         // alter reward piece position
         @Override
         public void keyPressed(KeyEvent e){

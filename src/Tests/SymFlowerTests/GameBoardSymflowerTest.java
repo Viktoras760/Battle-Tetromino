@@ -1,6 +1,8 @@
-package game.gameboards;
+package Tests.SymFlowerTests;
 
 import game.Tetromino;
+import game.gameboards.GameBoard;
+import game.gameboards.*;
 import java.awt.*;
 
 import static org.junit.Assert.*;
@@ -66,7 +68,7 @@ public class GameBoardSymflowerTest{
 		//boolean[][] map = null; // TODO This is a fallback value due to incomplete analysis.
 		int left = 1; // TODO This is a fallback value due to incomplete analysis.
 		int right = 1; // TODO This is a fallback value due to incomplete analysis.
-		int expected = 0; // TODO This is a fallback value due to incomplete analysis.
+		int expected = 1; // TODO This is a fallback value due to incomplete analysis.
 		int actual = g.getHeight(map, left, right);
 
 		assertEquals(expected, actual);

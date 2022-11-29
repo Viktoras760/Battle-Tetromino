@@ -44,6 +44,8 @@ public class Server{
     private File messageFile = new File("resources/messages.txt");
     private PrintWriter usersFile = new PrintWriter(new FileWriter(messageFile, true));
 
+
+    
     // number of users
     private int userNum = 0;
 

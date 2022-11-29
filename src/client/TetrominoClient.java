@@ -24,6 +24,10 @@ public class TetrominoClient{
     protected String nickName;
     protected String iconPath;
 
+
+
+
+
     /**
      * start a chatServ client
      *
@@ -43,7 +47,12 @@ public class TetrominoClient{
     public void start() throws IOException{
         login = new LogInGUI(this);     // set up and display login UI
         login.setVisible(true);
+
+        
     }
+
+
+
 
     /**
      * close the battleTetromino client UI

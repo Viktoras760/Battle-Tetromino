@@ -33,6 +33,8 @@ public abstract class TetrisGame extends JFrame{
 
     protected TransparentPanel pauseScreen;
 
+
+    
     protected PrintWriter output;
 
     protected String gameName;

@@ -22,6 +22,8 @@ public class AIGame extends SinglePlayerGame implements AutoPlayable{
         new Thread(this :: AIGameGo).start();
     }
 
+
+    
     public void run(){
         this.setVisible(true);
         super.run();

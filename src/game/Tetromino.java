@@ -244,6 +244,8 @@ public class Tetromino {
         return this.getCurrentShape();
     }
 
+
+    
     public Color getTetrominoColor() {
         return tetrominoColor;
     }

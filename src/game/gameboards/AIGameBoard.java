@@ -31,6 +31,8 @@ public class AIGameBoard extends GameBoard{
         currentBestPosition = findCurrentTetrominoBestPosition(this.current);
         holdBestPosition = findCurrentTetrominoBestPosition(hold);
 
+
+        
         if (holdBestPosition[3] < currentBestPosition[3]) {
             holdSwitch = true;
             xToMove = holdBestPosition[0] - this.piecePositionX;

@@ -33,6 +33,8 @@ class User {
         return userIconPic;
     }
 
+
+    
     public void setUserIconPic(String userIconPic){
         this.userIconPic = userIconPic;
     }

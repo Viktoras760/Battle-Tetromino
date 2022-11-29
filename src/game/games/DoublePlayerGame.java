@@ -26,6 +26,8 @@ abstract class DoublePlayerGame extends TetrisGame{
 
     protected boolean iWonLevel;
 
+
+    
     public DoublePlayerGame(String nickName, String iconPath){
         super();
 

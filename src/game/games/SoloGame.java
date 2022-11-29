@@ -26,6 +26,8 @@ public class SoloGame extends SinglePlayerGame{
                            public void keyTyped(KeyEvent e) {
                            }
 
+
+                           
                            @Override
                            public void keyPressed(KeyEvent e){
                                if (playing){

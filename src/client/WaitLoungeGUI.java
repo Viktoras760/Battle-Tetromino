@@ -356,6 +356,8 @@ public class WaitLoungeGUI extends JFrame{
             } catch (IOException e){
                 e.printStackTrace();
             }
+
+            
         }
     }
 

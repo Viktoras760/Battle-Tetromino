@@ -33,6 +33,8 @@ public class OnlineBattleGame extends DoublePlayerGame{
         opponentGameBoard.setBounds(170 + 680, 155, 338, 546);
         getContentPane().add(opponentGameBoard);
 
+
+        
         addKeyListener(new KeyListener(){
             @Override
             public void keyTyped(KeyEvent e){

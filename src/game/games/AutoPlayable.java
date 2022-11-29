@@ -5,4 +5,6 @@ package game.games;
  */
 public interface AutoPlayable{
     void AIGameGo();
+//test
+
 }
