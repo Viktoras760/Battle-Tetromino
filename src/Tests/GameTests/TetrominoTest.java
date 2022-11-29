@@ -1,4 +1,5 @@
 package Tests.GameTests;
+import static org.junit.Assert.fail;
 
 import org.junit.Test;
 
@@ -17,7 +18,7 @@ public class TetrominoTest {
 
     @Test
     public void testGetNextShape() {
-
+        fail("Not yet implemented");
     }
 
     @Test
